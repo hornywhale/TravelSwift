@@ -1,6 +1,6 @@
 # TravelSwift
 
-TravelSwift is powerful flight booking service, made as final exam for Singidunum Univercity, Serbia. Availible at this address: https://travelswift.ru. Videopresentation could be found here - https://travelswift/videos/videopresentation.mov.
+TravelSwift is powerful flight booking service, made as final exam for Singidunum Univercity, Serbia. Availible at this address: https://travelswift.ru. Videopresentation could be found here - https://travelswift/videopresentation.mov.
 
 ### Homepage
 
