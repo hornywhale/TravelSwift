@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/owl.theme.default.css">
+        <link rel="stylesheet" href="styles/owl.carousel.min.css">
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="icon" type="image/x-icon" href="/images/plane.svg">
+        <title>TravelSwift | Home</title>
+    </head>
+    <body>
+        <div class="navigation">
+            <div class="nav-left">
+                <header>
+                    <div class="logo-container">
+                        <img src="images/plane.svg" class="logo">
+                        <h1>TravelSwift</h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            |
+                            <li><a href="about.html">About</a></li>
+                            |
+                            <li><a href="partners.html">Partners</a></li>
+                            |
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+        </div>
+        <div class="searchbar" id="searchbar">
+            <form class="search-form shadow" action="offers.html">
+                <input class="form-element" type="text" id="from" name="from" placeholder="Where from?" required>
+                <input class="form-element" type="text" id="to" name="to" placeholder="Where to?" required>
+                <input class="form-element" type="text" id="date" name="date" placeholder="When?" onfocus="(this.type='date')" required>
+                <input class="form-element search" type="submit" value="Search!">
+            </form>
+        </div>
+        <div class="destinations">
+            <h3>Popular destinations</h3>
+            <div id="owl-carousel" class="owl-carousel owl-theme">
+                <article class="thumbnail item shadow">
+                    <a href="#!">
+                    <img src="images/rome.jpg" class="img-responsive" />
+                    </a>
+                    <div class="caption">
+                        <h4>Belgrade to Rome</h4>
+                        <p class="flex-text" id="rome">Weather in Rome: loading...</p>
+                        <p class="flex-text">Prepare for an extraordinary journey from Belgrade to the captivating city of Rome. Italy's timeless capital is calling, promising a blend of history, art, and culinary delights that you won't want to miss. Your adventure to the Eternal City begins here</p>
+                        <a class="btn btn-primary btn-block" onclick="dategen('Rome');">Book now!</a>
+                    </div>
+                </article>
+                <article class="thumbnail item shadow">
+                    <a href="#!">
+                    <img src="images/budapest.jpg" class="img-responsive" />
+                    </a>
+                    <div class="caption">
+                        <h4>Belgrade to Budapest</h4>
+                        <p class="flex-text" id="budapest">Weather in Budapest: loading...</p>
+                        <p class="flex-text">Your journey from Belgrade to Budapest awaits, taking you to the enchanting capital of Hungary. This is your ticket to discover the best of Central Europe, where history, culture, and adventure come together. As you travel from Serbia to Hungary, prepare for an unforgettable experience.</p>
+                        <a class="btn btn-primary btn-block" onclick="dategen('Budapest');">Book now!</a>
+                    </div>
+                </article>
+                <article class="thumbnail item shadow">
+                    <a href="#!">
+                    <img src="images/moscow.jpg" class="img-responsive" />
+                    </a>
+                    <div class="caption">
+                        <h4>Belgrade to Moscow</h4>
+                        <p class="flex-text" id="moscow">Weather in Moscow: loading...</p>
+                        <p class="flex-text">Experience the allure of Russia's iconic capital like never before. We're excited to offer you an unforgettable journey from Belgrade to Moscow, where history, culture, and adventure await. Whether you're drawn to the enchanting Red Square, the rich heritage of the Kremlin, or the vibrant energy of Moscow's streets, your adventure starts right here.</p>
+                        <a class="btn btn-primary btn-block" onclick="dategen('Moscow');">Book now!</a>
+                    </div>
+                </article>
+                <article class="thumbnail item shadow">
+                    <a href="#!">
+                    <img src="images/london.jpg" class="img-responsive" />
+                    </a>
+                    <div class="caption">
+                        <h4>Belgrade to London</h4>
+                        <p class="flex-text" id="london">Weather in London: loading...</p>
+                        <p class="flex-text">Get ready to embark on a thrilling journey from Belgrade to the vibrant heart of the United Kingdom – London. A world of history, culture, and excitement is waiting for you. It's time to make unforgettable memories and explore the dynamic streets of the British capital.</p>
+                        <a class="btn btn-primary btn-block" onclick="dategen('London');">Book now!</a>
+                    </div>
+                </article>
+                <article class="thumbnail item shadow">
+                    <a href="#!">
+                    <img src="images/barcelona.jpg" class="img-responsive" />
+                    </a>
+                    <div class="caption">
+                        <h4>Belgrade to Barcelona</h4>
+                        <p class="flex-text" id="barcelona">Weather in Barcelona: loading...</p>
+                        <p class="flex-text">Prepare for an enriching voyage from Belgrade to the vibrant streets of Barcelona. Spain's coastal gem offers a delightful fusion of history, gastronomy, and breathtaking vistas. Your exploration of Barcelona kicks off right here.</p>
+                        <a class="btn btn-primary btn-block" onclick="dategen('Barcelona');">Book now!</a>
+                    </div>
+                </article>
+                <article class="thumbnail item shadow">
+                    <a href="#!">
+                    <img src="images/istanbul.jpg" class="img-responsive" />
+                    </a>
+                    <div class="caption">
+                        <h4>Belgrade to Istanbul</h4>
+                        <p class="flex-text" id="istanbul">Weather in Istanbul: loading...</p>
+                        <p class="flex-text">Get ready for a remarkable journey from Belgrade to the fascinating city of Istanbul, where the continents of Europe and Asia merge, creating a unique tapestry of culture, history, and flavors. Your adventure to Istanbul commences right here</p>
+                        <a class="btn btn-primary btn-block" onclick="dategen('Istanbul');">Book now!</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="profits">
+            <div class="profit-element">
+                <img class="profit-img" src="images/search.svg">
+                <h3>Search conveniently</h3>
+            </div>
+            <div class="profit-element">
+                <img class="profit-img" src="images/coins.svg">
+                <h3>Pay less money</h3>
+            </div>
+            <div class="profit-element">
+                <img class="profit-img" src="images/time.svg">
+                <h3>Save your time</h3>
+            </div>
+        </div>
+        <footer>
+            <h4 class="copyright">2023230351 @ Egor Tyshchuk</h4>
+            <div class="info">
+                <div class="info-element">
+                    <h4><a class="footer-link" href="#">Home</a></h4>
+                    <p>TravelSwift is one of its own when it comes to booking services.</p>
+                </div>
+                <div class="info-element">
+                    <h4><a class="footer-link" href="contact.html">Contact</a></h4>
+                    <p>We are always happy to hear from you and help if any issues occur.</p>
+                </div>
+                <div class="info-element">
+                    <h4><a class="footer-link" href="partners.html">Partners</a></h4>
+                    <p>TravelSwift partners with top-line high-end airlines to make your trips even better.</p>
+                </div>
+                <div class="info-element">
+                    <h4><a class="footer-link" href="about.html">About</a></h4>
+                    <p>TravelSwift has reach history, so don't miss on it.</p>
+                </div>
+            </div>
+            <script src="scripts/jquery.min.js"></script>
+            <script src="scripts/jquery-migrate.min.js"></script>
+            <script src="scripts/owl.carousel.min.js"></script>
+            <script src="scripts/script.js"></script>
+        </footer>
+    </body>
+</html>

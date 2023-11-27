@@ -1,0 +1,336 @@
+body {
+    background-color: #ebebeb;
+    color: #000;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 0 7px 0 #b3b3b3;
+    -moz-box-shadow: 0 0 7px 0 #b3b3b3;
+    box-shadow: 0 0 7px 0 #b3b3b3;
+}
+
+.owl-carousel .owl-stage {
+    display: flex;
+}
+
+.owl-stage {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.loading {
+    max-width: 500px;
+}
+
+.owl-carousel .owl-item {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.owl-carousel .thumbnail {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.owl-carousel .thumbnail .caption {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+.owl-carousel .thumbnail .caption .flex-text {
+    flex-grow: 1;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+ul {
+    padding: 1%;
+    padding-bottom: 2%;
+}
+
+a {
+    color: black;
+    text-decoration: none !important;
+}
+
+a:visited {
+    color: #ebebeb !important;
+}
+
+a:hover {
+    color: #ebebeb !important;
+}
+
+.navigation {
+    text-align: center;
+    background-color: #bfbbae;
+}
+
+.logo {
+    width: 10%;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+}
+
+.search-form {
+    display: flex;
+    background-color: #a6a295;
+    justify-content: space-around;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.form-element {
+    margin: 1%;
+    padding: 1%;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+}
+
+.search {
+    background-color: #a3b17c;
+}
+
+.btn {
+    background-color: #63615a;
+    color: #ebebeb;
+    border-color: white;
+}
+
+.btn:hover {
+    background-color: #a3b17c;
+    color: #ebebeb;
+    border-color: white;
+}
+
+.btn:active:hover {
+    background-color: #a3b17c;
+    color: #ebebeb;
+    border-color: white;
+}
+
+.destinations {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.profit-img {
+    width: 10%;
+    margin-right: 2%;
+}
+
+.profit-element {
+    display: flex;
+    justify-content: center;
+}
+
+.profits {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #bfbbae;
+}
+
+.profits-text {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    background-color: #35322f;
+    color: #ebebeb;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer-link {
+    color: #ebebeb;
+}
+
+.copyright {
+    padding-bottom: 1%;
+}
+
+.ticket-qr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.info {
+    display: flex;
+}
+
+.airline-logo {
+    width: 80%;
+}
+
+.offers-element {
+    background-color: #a8805d;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.offers-inner {
+    display: flex;
+}
+
+.offers-inner {
+    display: flex;
+}
+
+.airline {
+    max-width: 10%;
+}
+
+.dates {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+}
+
+.route {
+    padding-left: 3%;
+}
+
+.date {
+    display: flex;
+    margin-left: 20%;
+}
+
+.date-element {
+    width: 40%;
+}
+
+.duration-value {
+    padding-bottom: 10%;
+    border-bottom: 3px black solid;
+    text-align: center;
+}
+
+.duration {
+    width: 15em;
+    margin-left: -5%;
+    margin-right: 5%;
+}
+
+.price {
+    margin-top: 20px;
+    margin-bottom: 5em;
+}
+
+.right {
+    border-left: 2px black dotted;
+    width: 15em;
+    text-align: center;
+}
+
+.buy {
+    width: 80%;
+    height: 20%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #a3b17c;
+    border-radius: 5px;
+    border: none;
+}
+
+.successful-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+}
+
+.block {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 1%;
+}
+
+.half {
+    width: 50%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-element {
+    border: none;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    height: 2.5em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.issue {
+    height: 7em;
+    resize: none;
+}
+
+.submit {
+    width: 50%;
+    background-color: #a3b17c;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.horizontal {
+    display: flex;
+}
+
+.partners-logo {
+    width: 20%;
+    margin: 1%;
+}
+
+.partners {
+    margin: 0% 5% 5% 5%;
+}
+
+.short {
+    margin: 5%;
+    min-height: 10em;
+    align-items: center;
+}

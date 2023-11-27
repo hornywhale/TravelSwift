@@ -1,0 +1,451 @@
+body {
+    background-color: #ebebeb;
+}
+
+footer {
+    background-color: #35322f;
+    color: #ebebeb;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer-link {
+    color: #ebebeb;
+}
+
+.copyright {
+    padding-bottom: 1%;
+}
+
+a {
+    color: black;
+    text-decoration: none !important;
+}
+
+a:visited {
+    color: #ebebeb !important;
+}
+
+a:hover {
+    color: #ebebeb !important;
+}
+
+.info {
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+ul {
+    padding: 1%;
+    padding-bottom: 2%;
+}
+
+a {
+    color: black;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #ebebeb !important;
+}
+
+.navigation {
+    text-align: center;
+    background-color: #bfbbae;
+}
+
+.logo {
+    width: 10%;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+}
+
+.search-form {
+    display: flex;
+    background-color: #a6a295;
+    justify-content: space-around;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.form-element {
+    margin: 1%;
+    padding: 1%;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+}
+
+.search {
+    background-color: #a3b17c;
+}
+
+.btn {
+    background-color: #63615a;
+    color: #ebebeb;
+    border-color: white;
+}
+
+.btn:hover {
+    background-color: #a3b17c;
+    color: #ebebeb;
+    border-color: white;
+}
+
+.btn:active:hover {
+    background-color: #a3b17c;
+    color: #ebebeb;
+    border-color: white;
+}
+
+.ticket-info {
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 30%;
+    height: 30em;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
+}
+
+.example {
+    width: 15%;
+}
+
+.example-element {
+    display: flex;
+}
+
+.booking {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.airline-logo {
+    width: 10%;
+    margin-right: 5%;
+}
+
+.airline {
+    display: flex;
+    align-items: center;
+}
+
+.dates {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+}
+
+.date {
+    display: flex;
+}
+
+.date-element {
+    width: 17%;
+}
+
+.duration-value {
+    padding-bottom: 10%;
+    border-bottom: 3px black solid;
+    text-align: center;
+}
+
+.duration {
+    width: 14em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.email {
+    height: 2.7em;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    border: none;
+    background-color: #ebebeb;
+}
+
+.buy {
+    background-color: #a3b17c;
+    height: 2.7em;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+}
+
+.price {
+    margin-top: 20px;
+    margin-bottom: 5em;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.plane {
+    width: 300px;
+    font-size: 16px;
+    color: #000;
+    max-height: 100%;
+}
+
+.cockpit {
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 5px solid #d8d8d8;
+}
+
+.cockpit:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    border-radius: 50%;
+    border-right: 5px solid #d8d8d8;
+    border-left: 5px solid #d8d8d8;
+}
+
+.cockpit h1 {
+    width: 60%;
+    margin: 100px auto 35px auto;
+}
+
+.exit {
+    position: relative;
+    height: 50px;
+}
+
+.exit:before,
+.exit:after {
+    content: "EXIT";
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 2px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    display: block;
+    position: absolute;
+    background: green;
+    color: white;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.exit:before {
+    left: 0;
+}
+
+.exit:after {
+    right: 0;
+}
+
+.fuselage {
+    border-right: 5px solid #d8d8d8;
+    border-left: 5px solid #d8d8d8;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+     !important;
+}
+
+.seats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.seat {
+    display: flex;
+    flex: 0 0 14.2857142857%;
+    padding: 5px;
+    position: relative;
+}
+
+.seat:nth-child(3) {
+    margin-right: 14.2857142857%;
+}
+
+.seat input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+}
+
+.seat input[type=checkbox]:checked+label {
+    background: #f42536;
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+    animation-duration: 300ms;
+    animation-fill-mode: both;
+}
+
+.seat input[type=checkbox]:disabled+label {
+    background: #ddd;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.seat input[type=checkbox]:disabled+label:after {
+    content: "X";
+    text-indent: 0;
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.seat input[type=checkbox]:disabled+label:hover {
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.seat label {
+    background: #bada55;
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding: 4px 0;
+
+    border-radius: 5px;
+    animation-duration: 300ms;
+    animation-fill-mode: both;
+}
+
+.seat label:before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    top: 1px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background: rgba(255, 255, 255, .4);
+    border-radius: 3px;
+}
+
+.seat label:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0px 2px #5c6aff;
+}
+
+@-webkit-keyframes rubberBand {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes rubberBand {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+}
+
+.booking {
+    display: flex;
+}
